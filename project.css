@@ -1,0 +1,85 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(lab\ png.jpg);
+  background-color: beige;
+  background-size: cover;
+}
+
+/* Header styles */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: silver;
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+/* Services section styles */
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.services h3 {
+   font-size: larger; 
+   text-decoration: solid;
+}
+
+.services p {
+font-style: italic;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.service {
+  margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
